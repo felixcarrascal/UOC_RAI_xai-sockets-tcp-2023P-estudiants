@@ -51,8 +51,8 @@ public class HTTPclient {
 		LSimLogger.log(Level.INFO, "HTTP server_port: "    + http_server_port);
 
 		/* Complete code  */
-		
-		String peticio = "COMPLETE CODE";
+		String peticio = "HEAD /xai/xai.html HTTP/1.0\r\n"
+		          + "Accept: */*\r\n";
 
 	   	LSimLogger.log(Level.INFO, peticio);
 
